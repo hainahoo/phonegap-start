@@ -30,11 +30,11 @@ Application.prototype = {
 	},
     
 	openLocal: function() {
-		window.open("http://icenium.com", "_self");
+		window.open("http://172.16.1.128/sfs", "_self");
 	},
  
 	openExternalInAppBrowser:  function () {
-		window.open("http://icenium.com", "_blank","location=no");
+		window.open("http://172.16.1.101/emcsfa", "_blank","location=no");
 	},
     
 	openExternalPDF:  function () {
