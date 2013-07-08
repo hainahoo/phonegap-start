@@ -26,24 +26,15 @@ Application.prototype = {
 	},
     
 	openLocal: function() {
-		window.open("http://icenium.com", "_blank");
+		window.open("http://172.16.1.128/sfs", "_self");
 	},
  
 	openExternalInAppBrowser:  function () {
-		window.open("http://172.16.1.101/emcsfa", "_blank");
+		window.open("http://172.16.1.101/emcsfa", "_blank","location=no");
 	},
     
 	
 	openPDF: function() {
-		if (device.uuid == "e0101010d38bde8e6740011221af335301010333" || device.uuid == "e0908060g38bde8e6740011221af335301010333") {
-			alert("Not Supported in Simulator.");
-		}
-		else {
-			if (device.platform == 'Android') {
-				window.open("whitepaper-mobile-developer-guidance.pdf", "_system");
-			}
-			else
-				window.open("whitepaper-mobile-developer-guidance.pdf", "_blank");
-		}
+		window.open("http://172.16.1.101/Reports", "_blank","location=no");
 	}
 }
