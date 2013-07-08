@@ -34,7 +34,7 @@ Application.prototype = {
 	},
  
 	openExternalInAppBrowser:  function () {
-		window.open("http://icenium.com", "_blank");
+		window.open("http://icenium.com", "_blank","location=no");
 	},
     
 	openExternalPDF:  function () {
