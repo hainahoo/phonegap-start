@@ -30,7 +30,7 @@ Application.prototype = {
 	},
     
 	openLocal: function() {
-		window.open("img/ice.png", "_blank");
+		window.open("http://icenium.com", "_self");
 	},
  
 	openExternalInAppBrowser:  function () {
